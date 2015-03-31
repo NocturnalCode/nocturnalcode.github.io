@@ -1,0 +1,60 @@
+url: https://y7kim.github.io
+# baseurl: /
+
+# Site settings
+title: Nocturnal Code
+email: developer@nocturnalcode.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 'fffffff'
+  secondary: '0000000'
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Daniel Brooker
+  pic: dan
+  position: Founder / Software Engineer
+  social:
+    - title: twitter
+      url: http://twitter.com/DraconisNZ
+    - title: github
+      url: http://github.com/DanBrooker
+
+- name: Tom Carey
+  pic: tom
+  position: Founder / Software Engineer
+  social:
+    - title: twitter
+      url: http://twitter.com/AldurNZ
+    - title: github
+      url: http://github.com/TomCarey
+
+- name: Roger Shakes
+  pic: roger
+  position: General Manager
+  # social:
+  #   - title: twitter
+  #     url: #
+  #   - title: facebook
+  #     url: #
+  #   - title: google-plus
+  #     url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/NocturnalCode
+  - title: github
+    url: http://github.com/NocturnalCode
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Auckland
+  - line: New Zealand
+
+# Build settings
+markdown: kramdown
+permalink: pretty
