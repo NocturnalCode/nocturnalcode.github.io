@@ -175,9 +175,29 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+
 .navbar-default .navbar-brand {
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
+    background-image: url('img/logo.png');
+    background-size: 309px 38px;
+    // 926 × 114
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 10px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -266,14 +286,15 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/unsplash-kitsune-3-dark.jpg);
+    // background-image: url(../img/IMG_5766.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-color: #000;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    -o-background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 header .intro-text {
