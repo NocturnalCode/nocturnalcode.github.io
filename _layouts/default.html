@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
-
-
-    <body id="page-top" class="index">
-
-    {% include header.html %}
-    {% include services.html %}
-    {% include portfolio_grid.html %}
-    {% include process.html %}
-    {% include quotes.html %}
-    {% include team.html %}
-    {% include clients.html %}
-    {% include contact.html %}
+  <body id="page-top" class="index">
+    {% include nav.html %}
+    {{ content }}
     {% include footer.html %}
     {% include js.html %}
-
-    </body>
+    {% include contact.html %}
+  </body>
 </html>
