@@ -777,6 +777,27 @@ footer ul.quicklinks {
     line-height: 40px;
 }
 
+blockquote {
+  text-align: left;
+  border: none;
+}
+
+blockquote footer {
+  text-align: left;
+}
+
+blockquote:before {
+  display: block;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+
+
 ul.social-buttons {
     margin-bottom: 0;
 }
