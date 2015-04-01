@@ -18,7 +18,7 @@ $(function() {
 // Highlight the top nav as scrolling occurs
 $('body').scrollspy({
     target: '.navbar-fixed-top'
-})
+});
 
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
@@ -33,5 +33,26 @@ $('div.modal').on('show.bs.modal', function() {
 		if (!location.hash){
 			$(modal).modal('hide');
 		}
-	}
+	};
+});
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+$(function() {
+
+  var submitted = getParameterByName('submitted');
+  if (submitted) {
+    $('html, body').stop().animate({
+        scrollTop: $('#contact').offset().top
+    }, 1500, 'easeInOutExpo');
+
+    $('.hide-submitted','#contact').hide();
+    $('.show-submitted', '#contact').show();
+  }
+
 });
