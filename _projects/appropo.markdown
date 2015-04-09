@@ -2,7 +2,7 @@
 layout: project
 name: appropo
 title: Appropo
-subtitle: Digital Marketing through the AppStore
+subtitle: Mobile Digital Marketing
 image: appropo.jpg
 alt: Appropo
 client: Appropo
