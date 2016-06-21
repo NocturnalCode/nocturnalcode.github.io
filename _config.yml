@@ -24,6 +24,14 @@ people:
       url: http://twitter.com/DraconisNZ
     - title: github
       url: http://github.com/DanBrooker
+- name: Mark Benner
+  pic: mark
+  position: Software Developer
+  social:
+    - title: twitter
+      url: http://twitter.com/goldfisho
+    - title: github
+      url: http://github.com/goldfish15
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
