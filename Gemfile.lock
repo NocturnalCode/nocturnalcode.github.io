@@ -60,7 +60,7 @@ DEPENDENCIES
   jekyll
 
 RUBY VERSION
-   ruby 2.4.3p205
+   ruby 2.4.0p0
 
 BUNDLED WITH
    1.16.1
